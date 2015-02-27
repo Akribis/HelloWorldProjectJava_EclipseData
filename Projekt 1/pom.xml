@@ -7,7 +7,7 @@
 		  <version>0.1</version>
 		    <packaging>jar</packaging>
 
-		      <name>Maven Quick Start Archetype</name>
+		      <name>Akribis HelloWorld</name>
 		        <url>http://maven.apache.org</url>
 
 			<dependencies>
