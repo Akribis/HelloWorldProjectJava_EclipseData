@@ -1,8 +1,6 @@
-
+package helloworld;
 
 import java.util.Scanner;
-
-
 
 public class HelloWorld {
 
@@ -19,6 +17,10 @@ public class HelloWorld {
                 first_name = user_input.next();
                 
                 System.out.println("You are " + first_name);
+                
+                new rtype.RType();
+                
+                
 		
 	}
 
