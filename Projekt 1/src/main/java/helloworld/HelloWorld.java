@@ -30,7 +30,7 @@ public class HelloWorld {
 
 // alles klar
 // dies ist ein kommentar
-/*
+/* Hallo
  * Hallo
  * Das ist ein Kommentar
  * 
