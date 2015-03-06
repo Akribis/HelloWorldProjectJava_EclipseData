@@ -27,11 +27,14 @@ public class HelloWorld {
 
 }
 
+<<<<<<< HEAD
 
 // alles klar
 // dies ist ein kommentar
+=======
 /*
  * Hallo
  * Das ist ein Kommentar
  * 
  */
+>>>>>>> 135c1ea0d1fd22873044b234eea63188f72b084b
