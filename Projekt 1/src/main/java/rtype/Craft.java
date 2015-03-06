@@ -15,24 +15,38 @@ package rtype;
 
 import java.awt.Image;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import javax.imageio.ImageIO;
 
 import javax.swing.ImageIcon;
 
 public class Craft {
 
-//    private String craft = "paw_lo_res.png";
 
     private int dx;
     private int dy;
     private int x;
     private int y;
     private Image image;
+    
+//    private String craft = "paw_lo_res.png";
+
 
     public Craft() {
-//        ImageIcon ii = new ImageIcon(this.getClass().getResource(craft));
-        ImageIcon ii = new ImageIcon("paw_lo_res.png");
-
-        image = ii.getImage();
+        
+   
+        try
+        {
+            BufferedImage bImage = ImageIO.read(getClass().getClassLoader().getResource("paw_lo_res.png"));
+            ImageIcon ii = new ImageIcon(bImage);
+            image = ii.getImage();
+        }
+        catch (IOException e)
+        {
+            System.err.println("image not found: " + e.getMessage());
+        }
+               
 
         x = 40;
         y = 60;
