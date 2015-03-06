@@ -28,10 +28,10 @@ public class HelloWorld {
 }
 
 
-// alles klar
-// dies ist ein kommentar
-/*
- * Hallo
- * Das ist ein Kommentar
- * 
+// aafgra
+// arghr
+/* argh
+ * argh
+ * arghrhrntar
+ * aergth
  */
