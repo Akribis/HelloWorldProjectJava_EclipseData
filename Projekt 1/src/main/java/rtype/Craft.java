@@ -30,8 +30,6 @@ public class Craft {
     private int y;
     private Image image;
     
-//    private String craft = "paw_lo_res.png";
-
 
     public Craft() {
         
