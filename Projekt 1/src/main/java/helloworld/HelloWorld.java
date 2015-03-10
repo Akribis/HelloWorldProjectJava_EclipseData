@@ -1,38 +1,30 @@
-package main.java.helloworld;
+package helloworld;
 
 import java.util.Scanner;
-import main.java.rtype.RType;
+import rtype.RType;
 
 public class HelloWorld {
 
     
 	public static void main(String[] args) {
 
-                Scanner user_input = new Scanner( System.in );
+//                Scanner user_input = new Scanner( System.in );
+//            
+//		System.out.println("Hello Akribis!!!!\n");
+//                
+//                String first_name;
+//                System.out.print("Enter Akribis' name\n");
+//                
+//                first_name = user_input.next();
+//                
+//                System.out.println("You are " + first_name);
             
-		System.out.println("Hello Akribis!!!!\n");
-                
-                String first_name;
-                System.out.print("Enter Akribis' name\n");
-                
-                first_name = user_input.next();
-                
-                System.out.println("You are " + first_name);
-                
-                new RType();
+            System.out.println("hello world");
+
+            new RType();
                 
                 
 		
 	}
 
 }
-
-
-
-// aafgra
-// arghr
-/* argh
- * argh
- * arghrhrntar
- * aergth
- */

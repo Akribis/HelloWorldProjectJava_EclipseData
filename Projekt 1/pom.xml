@@ -24,8 +24,8 @@
         <configuration>
           <archive>
             <manifest>
-              <addClasspath>true</addClasspath>
-              <!--<classpathPrefix>lib/</classpathPrefix>-->
+		<addClasspath>true</addClasspath>-->
+                <!-- <classpathPrefix>lib/</classpathPrefix>--> -->
               <mainClass>helloworld.HelloWorld</mainClass>
             </manifest>
           </archive>
