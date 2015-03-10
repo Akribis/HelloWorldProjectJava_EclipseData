@@ -30,15 +30,14 @@ public class Craft {
     private int y;
     private Image image;
     
-//    private String craft = "paw_lo_res.png";
-
 
     public Craft() {
         
+        BufferedImage bImage = null;
    
         try
         {
-            BufferedImage bImage = ImageIO.read(getClass().getClassLoader().getResource("paw_lo_res.png"));
+            bImage = ImageIO.read(getClass().getClassLoader().getResource("paw_lo_res.png"));
             ImageIcon ii = new ImageIcon(bImage);
             image = ii.getImage();
         }
