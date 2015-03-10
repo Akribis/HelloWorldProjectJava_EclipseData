@@ -1,7 +1,7 @@
-package helloworld;
+package main.java.helloworld;
 
 import java.util.Scanner;
-import rtype.RType;
+import main.java.rtype.RType;
 
 public class HelloWorld {
 
@@ -26,3 +26,13 @@ public class HelloWorld {
 	}
 
 }
+
+
+
+// aafgra
+// arghr
+/* argh
+ * argh
+ * arghrhrntar
+ * aergth
+ */

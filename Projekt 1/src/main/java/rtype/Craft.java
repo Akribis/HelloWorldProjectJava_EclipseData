@@ -11,7 +11,7 @@
  */
 
 
-package rtype;
+package main.java.rtype;
 
 import java.awt.Image;
 import java.awt.event.KeyEvent;
