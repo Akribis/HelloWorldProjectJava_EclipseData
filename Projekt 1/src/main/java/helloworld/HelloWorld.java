@@ -1,30 +1,39 @@
 package helloworld;
 
-import java.util.Scanner;
-import rtype.RType;
+
+import org.lwjgl.LWJGLException;
+import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.DisplayMode;
 
 public class HelloWorld {
+    public void start() {
+        try {
+            Display.setDisplayMode(new DisplayMode(800,600));
+            Display.create();
+        } catch (LWJGLException e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+         
+        // init OpenG here
+         
+        while (!Display.isCloseRequested()) {
+             
+            // render OpenGL here
+             
+            Display.update();
+        }
+         
+        Display.destroy();
+    }
+     
+    public static void main(String[] argv) {
+        
+        System.out.println("hello display-akribis!!!");
 
+        HelloWorld displayExample = new HelloWorld();
+        displayExample.start();
+    }
     
-	public static void main(String[] args) {
-
-//                Scanner user_input = new Scanner( System.in );
-//            
-//		System.out.println("Hello Akribis!!!!\n");
-//                
-//                String first_name;
-//                System.out.print("Enter Akribis' name\n");
-//                
-//                first_name = user_input.next();
-//                
-//                System.out.println("You are " + first_name);
-            
-            System.out.println("hello world");
-
-            new RType();
-                
-                
-		
-	}
 
 }
